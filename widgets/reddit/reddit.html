@@ -20,7 +20,11 @@
         <a data-bind-href="item.permalink"><i class="icon-comments"></i></a> | 
         <a data-bind-href="item.url"><i class="icon-anchor"></i></a>
       </td>
-      <td class="post-title" data-bind="item.title | truncate 80"></td>
+      <td class="post-title">
+        <a data-bind-href="item.url">
+            <span data-bind="item.title | truncate 80"></span>
+        </a>
+      </td>
       <td class="post-score" data-bind="item.score"></td>
       <td class="post-comments" data-bind="item.comments"></td>
     </tr>
