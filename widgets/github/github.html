@@ -1,0 +1,18 @@
+<h1 class="title" data-bind="data.title"></h1>
+<span class="username">
+	(<span data-bind="data.username"></span>)
+</span>
+
+<br /><br />
+
+<h4>Open Pull Requests</h4>
+
+<ol>
+	<li data-foreach-item="data.pull_requests.items">
+		<span class="label" data-bind="item.name | truncate 50"></span>
+	</li>
+</ol>
+
+<br />
+
+<p class="updated-at" data-bind="updatedAtMessage"></p>
