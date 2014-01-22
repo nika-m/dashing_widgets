@@ -1,22 +1,19 @@
 ---
 valuation: |+
-  data: {"current":17,"last":85,"id":"valuation","updatedAt":1390415172}
+  data: {"current":0,"last":72,"id":"valuation","updatedAt":1390421593}
 
 karma: |+
-  data: {"current":50055,"last":57153,"id":"karma","updatedAt":1390415172}
+  data: {"current":41125,"last":8861,"id":"karma","updatedAt":1390421593}
 
 synergy: |+
-  data: {"value":77,"id":"synergy","updatedAt":1390415172}
+  data: {"value":31,"id":"synergy","updatedAt":1390421593}
 
 convergence: |+
-  data: {"points":[{"x":7,"y":16},{"x":8,"y":26},{"x":9,"y":41},{"x":10,"y":37},{"x":11,"y":46},{"x":12,"y":9},{"x":13,"y":15},{"x":14,"y":34},{"x":15,"y":1},{"x":16,"y":14}],"id":"convergence","updatedAt":1390415171}
+  data: {"points":[{"x":78,"y":23},{"x":79,"y":28},{"x":80,"y":39},{"x":81,"y":24},{"x":82,"y":46},{"x":83,"y":36},{"x":84,"y":41},{"x":85,"y":45},{"x":86,"y":14},{"x":87,"y":19}],"id":"convergence","updatedAt":1390421593}
 
 buzzwords: |+
-  data: {"items":[{"label":"Pivoting","value":1},{"label":"Enterprise","value":1},{"label":"Leverage","value":1},{"label":"Streamlininess","value":2},{"label":"Synergy","value":1}],"id":"buzzwords","updatedAt":1390415171}
+  data: {"items":[{"label":"Synergy","value":11},{"label":"Enterprise","value":10},{"label":"Paradigm shift","value":7},{"label":"Turn-key","value":10},{"label":"Leverage","value":9},{"label":"Streamlininess","value":8},{"label":"Exit strategy","value":10},{"label":"Web 2.0","value":9},{"label":"Pivoting","value":3}],"id":"buzzwords","updatedAt":1390421593}
 
 reddit: |+
-  data: {"posts":[{"label":"Current top posts in \"/r/programming\"","items":[{"title":"I'm making one game per week in html5/javascript, here's game #5","score":59,"comments":17},{"title":"So, You Want To Write Your Own Language? (Dr. Dobbs article by Walter Bright)","score":420,"comments":189},{"title":"8086tiny: The world's smallest PC...","score":34,"comments":1},{"title":"When cryptographic functions go...","score":27,"comments":0},{"title":"Code review for science: what Mozilla and PLOS Computational Biology learned putting...","score":39,"comments":12},{"title":"[YouTube] SIGGRAPH University - \"An Introduction to OpenGL Programming\"","score":7,"comments":1}]},{"label":"Current top posts in \"/r/ruby\"","items":[{"title":"Yay -- CLI arg parsing doesn't have to suck!","score":18,"comments":7},{"title":"Introducing Lookout::Rack::Test. Easy testing of Rack-based APIs with Cucumber and...","score":3,"comments":1},{"title":"6 Tips for Full Stack Open Source RubyGems...","score":3,"comments":0},{"title":"PDFComparison gem released (v0.0.7). Very alpha and my first serious gem. Criticism...","score":1,"comments":1},{"title":"Ruby Help - How do you randomly select an...","score":10,"comments":13},{"title":"Total Roob, force floats in array, truncate...","score":2,"comments":15}]},{"label":"Current top posts in \"/r/russia\"","items":[{"title":"Baikal's frozen...","score":65,"comments":9},{"title":"Study...","score":2,"comments":1},{"title":"Russians: Still the Go-To Bad...","score":2,"comments":2},{"title":"\"The U.S. ignored help offered by Russian security services concerning the Boston...","score":1,"comments":0},{"title":"Father of the month?","score":3,"comments":3},{"title":"Life in USA vs life in Russian!","score":2,"comments":0}]}],"id":"reddit","updatedAt":1390415162}
-
-github: |+
-  data: {"data":{"title":"Github","username":"nika-miller","pull_requests":{"items":[{"name":"D-16931 Taas - Edit Action - Subject Truncation","link":null},{"name":"ohthree link formed to alerts.ohthree.com/{region}/instance/{instance_uu...","link":null}]}},"id":"github","updatedAt":1390415160}
+  data: {"posts":[{"label":"Current top posts in \"/r/programming\"","items":[{"title":"I'm making one game per week in html5/javascript, here's game #5","score":313,"comments":75},{"title":"When cryptographic functions go...","score":170,"comments":22},{"title":"8086tiny: The world's smallest PC...","score":64,"comments":4},{"title":"So, You Want To Write Your Own Language? (Dr. Dobbs article by Walter Bright)","score":446,"comments":241},{"title":"Code review for science: what Mozilla and PLOS Computational Biology learned putting...","score":45,"comments":13},{"title":"[YouTube] SIGGRAPH University - \"An Introduction to OpenGL Programming\"","score":19,"comments":1}]},{"label":"Current top posts in \"/r/ruby\"","items":[{"title":"Yay -- CLI arg parsing doesn't have to suck!","score":22,"comments":8},{"title":"6 Tips for Full Stack Open Source RubyGems...","score":4,"comments":0},{"title":"Introducing Lookout::Rack::Test. Easy testing of Rack-based APIs with Cucumber and...","score":2,"comments":1},{"title":"PDFComparison gem released (v0.0.7). Very alpha and my first serious gem. Criticism...","score":1,"comments":1},{"title":"Ruby Help - How do you randomly select an...","score":11,"comments":13},{"title":"Total Roob, force floats in array, truncate...","score":2,"comments":17}]},{"label":"Current top posts in \"/r/russia\"","items":[{"title":"Baikal's frozen...","score":72,"comments":9},{"title":"Russians: Still the Go-To Bad...","score":7,"comments":4},{"title":"Study...","score":5,"comments":3},{"title":"Driving at Night in Russia Could Kill...","score":3,"comments":0},{"title":"[Serious] (to Black Redditors) If you could erase slavery by being living in Africa...","score":0,"comments":0},{"title":"Russian vodka - type from unique water...","score":1,"comments":0}]}],"id":"reddit","updatedAt":1390421561}
 

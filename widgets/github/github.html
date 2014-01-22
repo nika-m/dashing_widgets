@@ -8,8 +8,10 @@
 <h4>Open Pull Requests</h4>
 
 <ol>
-	<li data-foreach-item="data.pull_requests.items">
-		<span class="label" data-bind="item.name | truncate 50"></span>
+	<li data-foreach-pr="data.pull_requests">
+		<a data-bind-href="pr.link">
+			<span class="label" data-bind="pr.name | truncate 50"></span>
+		</a>
 	</li>
 </ol>
 

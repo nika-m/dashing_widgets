@@ -29,8 +29,8 @@ SCHEDULER.every '15m', :first_in => 0 do |job|
 
   # pull requests for repo
   client.pulls(repo).each do |pr|
-    pull_requests.push({name: pr.title, link: pr.html_url})
+    pull_requests.push({name: pr.title, link: pr[:_links].html.href})
   end
-  
-  send_event('github', {data: {title: "Github", username: username, pull_requests: {items: pull_requests}}})
+   
+  send_event('github', {data: {title: "Github", username: username, pull_requests: pull_requests}})
 end
