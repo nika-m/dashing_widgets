@@ -1,4 +1,4 @@
-<h3>Reddit</h3>
+<h1>Reddit</h1>
 
 <table class="reddit-posts">
   <thead>
@@ -7,6 +7,7 @@
     </tr>
 
     <tr>
+      <th class="post-links">Links</th>
       <th class="post-title">Title</th>
       <th class="post-upvotes">Upvotes</th>
       <th class="post-comments">Comments</th>
@@ -15,11 +16,15 @@
 
   <tbody class="subreddit-data">
     <tr data-foreach-item="posts.items">
-      <td class="post-title" data-bind="item.title"></td>
+      <td class="reddit-links title">
+        <a data-bind-href="item.permalink"><i class="icon-comments"></i></a> | 
+        <a data-bind-href="item.url"><i class="icon-anchor"></i></a>
+      </td>
+      <td class="post-title" data-bind="item.title | truncate 80"></td>
       <td class="post-score" data-bind="item.score"></td>
       <td class="post-comments" data-bind="item.comments"></td>
     </tr>
   </tbody>
 
   <tfoot></tfoot>
-</table>
+</table> 

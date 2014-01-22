@@ -1,9 +1,12 @@
 // ----------------------------------------------------------------------------
 // Sass declarations
 // ----------------------------------------------------------------------------
-$background-color:  #12b0c5;
-$title-color:       rgba(255, 255, 255, 0.7);
+$background-color:  #9c4274;
+$title-color:       #98878b;
+$post-title-color:  #42749c;
+$post-score-color:  #749c42;
 $moreinfo-color:    rgba(255, 255, 255, 0.7);
+$updated-at-color:  rgba(0, 0, 0, 0.3);
 
 // ----------------------------------------------------------------------------
 // Widget-list styles
@@ -16,16 +19,46 @@ $moreinfo-color:    rgba(255, 255, 255, 0.7);
     color: $title-color;
   }
 
+  .subreddit-title {
+    font-size: 23px;
+  }
+
+  tr {
+    padding-top:5px;
+    padding-bottom:5px;
+  }
+
+  th {
+    font-size: 14px;
+  }
+
   th, td {
     text-align: left;
   }
 
+  th.post-links {
+    text-align:center;
+  }
+
+  td.reddit-links {
+    text-align:center;
+  }
+
+  .subreddit-data {
+    padding-top: 15px;
+  }
+
   td.post-title {
     max-width: 350px;
+    color: $post-title-color;
+  }
+
+  td.post-score, td.post-comments {
+    color: $post-score-color;
   }
 
   .updated-at {
-    color: rgba(0, 0, 0, 0.3);
+    color: $updated-at-color;
   }
 
   .more-info {

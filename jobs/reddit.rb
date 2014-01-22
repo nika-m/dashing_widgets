@@ -27,16 +27,17 @@ class Reddit
 
         for i in 0..@maxcount
           title = response['data']['children'][i]['data']['title']
-          trimmed_title = title[0..85].gsub(/\s\w+$/, '...')
-
+         
           items.push({
-            title: trimmed_title,
+            title: title,
             score: response['data']['children'][i]['data']['score'],
-            comments: response['data']['children'][i]['data']['num_comments']
+            comments: response['data']['children'][i]['data']['num_comments'],
+            permalink: "http://www.reddit.com" + response['data']['children'][i]['data']['permalink'],
+            url: response['data']['children'][i]['data']['url']
           })
         end
 
-        posts.push({ label: 'Current top posts in "' + subreddit + '"', items: items })
+        posts.push({ label: 'Top Posts in "' + subreddit + '"', items: items })
       end
     end
 
