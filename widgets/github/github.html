@@ -7,13 +7,14 @@
 
 <h4>Open Pull Requests</h4>
 
-<ol>
+<ul>
 	<li data-foreach-pr="data.pull_requests">
 		<a data-bind-href="pr.link">
+			<i class="icon-li icon-github-alt"></i>
 			<span class="label" data-bind="pr.name | truncate 50"></span>
 		</a>
 	</li>
-</ol>
+</ul>
 
 <br />
 
